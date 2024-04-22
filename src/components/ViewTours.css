@@ -1,0 +1,38 @@
+/* ViewTours.css */
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .grid-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item p {
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+  
+  .grid-item p.price {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
